@@ -1,0 +1,18 @@
+name: judge
+summary: judge is automated graded platform for testing students programs. It supports variety of languages.
+maintainer: kiran <kiran.l13@iiits.in>
+description: |
+    Already given :-P !!
+tags:
+  # Replace "misc" with one or more whitelisted tags from this list:
+  # https://juju.ubuntu.com/docs/authors-charm-metadata.html#charm-metadata
+  - social
+  - wiki
+  - web_server
+subordinate: false
+provides:
+  website:
+    interface: http
+requires:
+  database:
+    interface: mysql
